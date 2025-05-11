@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -7,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #45ac4a;
+  background-color: #29642c;
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -42,6 +48,7 @@ section {
   margin: auto;
   text-align: justify;
 }
+  
 
 img {
   max-width: 400px;
@@ -59,23 +66,34 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+
 }
-table, tr, th,  {
-  border: 1px solid black;
-  border-radius: 10px
+
+
+table {
+
+  box-shadow: 7px 13px 37px #000;
 }
-tr, th {
-  background-color: #c7c7c7;
 
 tr, th {
-  padding-top: 10px;
+ background-color: #c7c7c7;
+  
+}
+
+tr, th {
+  
+  padding-top: 25px;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 20px;
+  
+
 }
+
 form {
   margin-top: 40px;
   max-width: 500px;
+  
 }
 
 label {
@@ -84,25 +102,73 @@ label {
   font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+
+
+
+/*formulario*/
+
+.Formulario {
+    width: 400px;
+    background: #646464;
+    padding: 30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    box-shadow: 7px 13px 37px #000;
+
 }
 
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.Formulario h4 {
+
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.control {
+    width: 100%;
+    background-color: rgb(228, 233, 231);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    }
+
+.Formulario a {
+    color: azure;
+    text-decoration: none;
+}
+
+.Formulario p{
+    height: 40px;
+    text-decoration: none;
+}
+
+.Formulario a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.Formulario .boton{
+    width: 100px;
+    background-color: rgb(22, 48, 181);
+    padding: 12px;
+    color: #ffffff;
+    margin: 16px 0;
+    font-size: 16px ;
+}
+
+p {
+
+  font-size: large;
+
+}
+
+
+ul {
+  font-size: large;
+  list-style-type: square;
 }
